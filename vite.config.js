@@ -4,6 +4,8 @@ import { VitePWA } from 'vite-plugin-pwa'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  site: 'https://nicmotta.github.io',
+  base: '/data-nec-kayak',
   plugins: [
     react(),
     VitePWA({
